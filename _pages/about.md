@@ -4,26 +4,8 @@ title: About
 permalink: /about/
 ---
 
-[Reverie](https://github.com/amitmerchant1990/reverie) is a Jekyll theme which is simple and opinionated. It's actually a fork of [jekyll-now](https://github.com/barryclark/jekyll-now) with some additional features and personal touches which I've implemented to suit my needs for [my blog](https://www.amitmerchant.com).
+##Athletik
 
-This is a plug-and-play Jekyll theme which you can use on GitHub Pages without even setting up a local environment.
+关于这个名字，我手头的德汉词典解释是这样的：Athletik (f) unz. ①竞技,体育运动②运动术③体操。德语里把田径叫做“轻竞技”(Leichtathletik)，把拳击摔柔举等按体重级别比赛的体育运动叫“重竞技”(Schwerathletik)，俄语里也大致如此：легкая/тяжёлая атлетика，不知道是谁影响了谁。
 
-## Features
-
-- Command-line free fork-first workflow, using GitHub.com to create, customize and post to your blog
-- Fully responsive and mobile optimized base theme
-- Sass/Coffeescript support using Jekyll 2.0
-- Free hosting on your GitHub Pages user site
-- All the SEO goodies comes in-built
-- Markdown blogging
-- Syntax highlighting using Pygments
-    - [Dracula syntax theme](https://draculatheme.com/) included
-- Disqus commenting
-- Google Analytics integration
-- Fuzzy search across blog posts
-- Pagination of posts works out-of-the-box.
-- Categorize posts out-of-the box
-- RSS Feed
-- In-built sitemap
-
-Learn more about it [here](https://github.com/amitmerchant1990/reverie) on how to get started.
+本来想着要是athletik这个词注册不到的话就起个schwerathletik作为名字，一来最近几年似乎比较喜欢重竞技，手心手背都是肉，手心肉厚点，二来按字面意思有体重比较大的运动员之意，符合本人现状……没想到竟没用到这个备案，应该是比较良好的兆头。
