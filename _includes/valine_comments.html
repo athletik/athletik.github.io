@@ -7,9 +7,10 @@
     <script src='//unpkg.com/valine-unpkg-avmin@0.0.1/dist/Valine.min.js'></script>
     <script>
          new Valine({
+	    av: AV,
             el: '#vcomments',
-            appId: '{{ site.valine.leancloud_appid }}',
-            appKey: '{{ site.valine.leancloud_appkey }}',
+            app_id: '{{ site.valine.appid }}',
+            app_key: '{{ site.valine.appkey }}',
             placeholder: '{{ site.valine.placeholder }}',
 	    recordIP: 'true',
             enableQQ: 'true'
