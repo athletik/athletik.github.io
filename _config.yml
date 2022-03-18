@@ -68,7 +68,7 @@ valine:
   # path: window.location.pathname #  v1.4.0+不要使用参数“app_key: 'LHvLGcwcauE5B2JpMxJ3lbtF',”
   recordIP: true # 是否记录评论者IP
   enableQQ: true # 是否启用昵称框自动获取QQ昵称和QQ头像, 默认关闭
-  serverURLs: https://rqEagbQW.api.lncldglobal.com # 把xxxxxxxx替换成你自己AppID的前8位字符
+  serverURLs: https://MdYXbMMI.api.lncldglobal.com # 把xxxxxxxx替换成你自己AppID的前8位字符
 
 #
 # !! You don't need to change any of the configuration flags below !!
