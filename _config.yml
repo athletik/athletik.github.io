@@ -57,8 +57,8 @@ baseurl:
 # Valine评论系统开关
 valine:
   enable: true
-  app_id:  rqEagbQWOMjRIeKIzMTcB4DY-MdYXbMMI # your leancloud app id
-  app_key: lfhqQNvVyRM4X5dln1vtaeMU # your leancloud app key
+  appid:  rqEagbQWOMjRIeKIzMTcB4DY-MdYXbMMI # your leancloud app id
+  appkey: lfhqQNvVyRM4X5dln1vtaeMU # your leancloud app key
 #  notify: true # mail notifier , https://github.com/xCss/Valine/wiki，v1.4.0+ 已废弃
 #  verify: true # Verification code，v1.4.0+ 已废弃
   placeholder: 请在此处留言 # comment box placeholder
