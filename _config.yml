@@ -62,7 +62,7 @@ valine:
   notify: false
   verify: false
   placeholder: 留下感想
-  avatar:   # gravatar style
+  avatar: gravatar
   guest_info: 昵称,邮件,网址
   pageSize: 10
   recordIP: true
