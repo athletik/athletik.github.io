@@ -55,12 +55,20 @@ enforce_ssl: https://athletik.github.io
 baseurl: 
 
 # Valine评论系统开关
-waline:
+valine:
   enable: true
-  serverURL: 'https://waline-athletik.vercel.app/'
-  locale:
-    placeholder: '留下感想'
-  emoji: false
+  appid: rqEagbQWOMjRIeKIzMTcB4DY-MdYXbMMI # your leancloud app id
+  appkey: lfhqQNvVyRM4X5dln1vtaeMU # your leancloud app key
+  notify: false
+  verify: false
+  placeholder: 留下感想
+  avatar:   # gravatar style
+  guest_info: 昵称,邮件,网址
+  pageSize: 10
+  recordIP: true
+  enableQQ: true
+  avatar_cdn: https://sdn.geekzu.org/avatar/
+  serverURLs: https://rqEagbQW.api.lncldglobal.com
   
 #
 # !! You don't need to change any of the configuration flags below !!
