@@ -1,10 +1,6 @@
-<html>
-<body>
-	<h4 align="left">「游客留言」：</h4>
-</body>
-</html>
-
-<div id="waline"></div>
+<br>
+<h4 align="left">「游客留言」：</h4>    
+<div id="comments"></div>
     <!--Leancloud 操作库:-->
     <script src="//code.bdstatic.com/npm/leancloud-storage@4.12.0/dist/av-min.js"></script>
     <!--Valine 的核心代码库:-->
@@ -12,7 +8,7 @@
     <link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet' />
     <script>
          Waline.init({
-            el: '#waline',
+            el: '#comments',
 	    serverURLs: 'https://waline-athletik.vercel.app/',
 	 })
     </script>
