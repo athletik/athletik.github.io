@@ -55,18 +55,7 @@ enforce_ssl: https://athletik.github.io
 baseurl: 
 
 # Valine评论系统开关
-valine:
-  enable: true
-  appid: rqEagbQWOMjRIeKIzMTcB4DY-MdYXbMMI
-  appkey: lfhqQNvVyRM4X5dln1vtaeMU
-  placeholder: 留下感想
-  avatar: mp
-  meta: ['nick','mail','link']
-  pageSize: 10
-  visitor: true
-  recordIP: true
-  enableQQ: false
-  serverURLs: https://rqEagbQW.api.lncldglobal.com
+
   
 #
 # !! You don't need to change any of the configuration flags below !!
