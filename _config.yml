@@ -57,12 +57,7 @@ baseurl:
 # Valine评论系统开关
 waline:
   enable: true
-  serverURLs: 'https://waline-athletik.vercel.app/',
-  locale:
-    placeholder: '留下感想',
-  emoji: false
-
-
+  
 #
 # !! You don't need to change any of the configuration flags below !!
 #
