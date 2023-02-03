@@ -32,25 +32,12 @@ layout: default
   </div>-->
 
 	       <!-- Valine 评论框 start -->
-<head>
-  <!-- ... -->
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/@waline/client@v2/dist/waline.css"
-  />
-  <!-- ... -->
-</head>
-<body>
-  <!-- ... -->
-  <div id="waline"></div>
-  <script type="module">
-    import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+  <!--<div class="date">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>-->
 
-    init({
-      el: '#waline',
-      serverURL: 'https://waline-athletik.vercel.app/',
-    });
-  </script>
-</body>
+	       <!-- Valine 评论框 start -->
+	       {% if site.valine.enable %}
+                      {% include valine_comments.html %}
 	       <!-- Valine 评论框 end -->  
 </article>
