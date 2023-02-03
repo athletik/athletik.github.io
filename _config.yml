@@ -55,8 +55,10 @@ enforce_ssl: https://athletik.github.io
 baseurl: 
 
 # Valine评论系统开关
-valine:
+waline:
   enable: true
+  locale:
+      placeholder: "欢迎留下评论"
 
 #
 # !! You don't need to change any of the configuration flags below !!
