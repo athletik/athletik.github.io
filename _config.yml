@@ -56,19 +56,7 @@ baseurl:
 
 # Valine评论系统开关
 waline:
-  enable: true
-  serverURL: https://waline-athletik.vercel.app/
-  locale:
-      placeholder: "留下感想"
-  libUrl: https://unpkg.com/@waline/client@v2/dist/waline.js
-  cssUrl: https://unpkg.com/@waline/client@v2/dist/waline.css
-  emoji:
-     - https://unpkg.com/@waline/emojis@1.0.1/qq
-     - https://unpkg.com/@waline/emojis@1.0.1/weibo
-     - https://unpkg.com/@waline/emojis@1.0.1/alus
-     - https://unpkg.com/@waline/emojis@1.0.1/bilibili
-     - https://unpkg.com/@waline/emojis@1.0.1/tieba
-     - https://unpkg.com/@waline/emojis@1.0.1/tw-emoji
+  enable: false
 
 
 #
