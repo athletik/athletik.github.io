@@ -55,7 +55,7 @@ enforce_ssl: https://athletik.github.io
 baseurl: 
 
 # Valine评论系统开关
-waline:
+valine:
   enable: false
 
 
