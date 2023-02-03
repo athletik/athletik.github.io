@@ -55,8 +55,12 @@ enforce_ssl: https://athletik.github.io
 baseurl: 
 
 # Valine评论系统开关
-valine:
+waline:
   enable: true
+  serverURLs: 'https://waline-athletik.vercel.app/',
+  locale:
+    placeholder: '留下感想',
+  emoji: false
 
 
 #
