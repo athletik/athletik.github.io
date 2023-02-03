@@ -57,17 +57,15 @@ baseurl:
 # Valine评论系统开关
 valine:
   enable: true
-  appid: rqEagbQWOMjRIeKIzMTcB4DY-MdYXbMMI # your leancloud app id
-  appkey: lfhqQNvVyRM4X5dln1vtaeMU # your leancloud app key
-  notify: false
-  verify: false
+  appid: rqEagbQWOMjRIeKIzMTcB4DY-MdYXbMMI
+  appkey: lfhqQNvVyRM4X5dln1vtaeMU
   placeholder: 留下感想
-  avatar: gravatar
-  guest_info: 昵称,邮件,网址
+  avatar: mp
+  meta: ['nick','mail','link']
   pageSize: 10
+  visitor: true
   recordIP: true
-  enableQQ: true
-  avatar_cdn: https://sdn.geekzu.org/avatar/
+  enableQQ: false
   serverURLs: https://rqEagbQW.api.lncldglobal.com
   
 #
