@@ -1,17 +1,14 @@
 <h4 align="left">「游客留言」：</h4>    
-<div id="vcomment"></div>
-    <!--Leancloud 操作库:-->
-    <!-- <script src='//cdn1.lncld.net/static/js/3.0.4/av-min.js'></script> -->
-    <!-- <script src='//cdn1.lncld.net/static/js/3.15.0/av-min.js'></script> -->
-    <script src="//code.bdstatic.com/npm/leancloud-storage@4.12.0/dist/av-min.js"></script>
-    <!--Valine 的核心代码库:-->
-    <!-- <script src='//lib.baomitu.com/valine/latest/Valine.min.js'></script> -->
-    <script src='//lib.baomitu.com/valine/1.5.1/Valine.min.js'></script>
+<head>
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+</head>
+<body>
+    <div id="vcomments"></div>
     <script>
-         new Valine([
-            el: '#vcomment',
+        new Valine({
+            el: '#vcomments',
             app_id: 'rqEagbQWOMjRIeKIzMTcB4DY-MdYXbMMI',
-            app_key: 'lfhqQNvVyRM4X5dln1vtaeMU',
-            placeholder: '留下些许感想'
-        ])
+            app_key: 'lfhqQNvVyRM4X5dln1vtaeMU'
+        })
     </script>
+</body>
