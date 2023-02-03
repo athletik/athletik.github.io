@@ -1,14 +1,14 @@
 <h4 align="left">「游客留言」：</h4>    
 <head>
-    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+    <link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet' />
 </head>
 <body>
     <div id="vcomments"></div>
     <script>
-        new Valine({
+        Waline.init({
             el: '#vcomments',
-            app_id: 'rqEagbQWOMjRIeKIzMTcB4DY-MdYXbMMI',
-            app_key: 'lfhqQNvVyRM4X5dln1vtaeMU'
+            serverURL: 'https://waline-athletik.vercel.app/'
         })
     </script>
 </body>
