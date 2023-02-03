@@ -4,11 +4,18 @@
     <!--Leancloud 操作库:-->
     <script src="//code.bdstatic.com/npm/leancloud-storage@4.12.0/dist/av-min.js"></script>
     <!--Valine 的核心代码库:-->
-    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
-    <link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet' />
+    <script src='https://unpkg.com/valine-unpkg-avmin@0.0.1/dist/Valine.min.js'></script>
     <script>
-         Waline.init({
+         new Valine({
+            av: AV,
             el: '#comments',
-	    serverURLs: 'https://waline-athletik.vercel.app/',
+            app_id: '{{ site.valine.appid }}',
+            app_key: '{{ site.valine.appkey }}',
+            placeholder: '{{ site.valine.placeholder }}',
+            notify: '{{ site.valine.notify }}',
+            verify: '{{ site.valine.verify }}',
+	    recordIP: 'true',
+            enableQQ: 'true',
+	    serverURLs: 'https://rqeagbqw.api.lncldglobal.com',
 	 })
     </script>
