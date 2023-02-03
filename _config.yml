@@ -57,11 +57,6 @@ baseurl:
 # Valine评论系统开关
 valine:
   enable: true
-  placeholder: 请在此处留言 # comment box placeholder
-  avatar:   # gravatar style
-  guest_info: 昵称,邮件,网址 # custom comment header
-  pageSize: 10 # pagination size
-  serverURLs: https://waline-athletik.vercel.app/ # 把xxxxxxxx替换成你自己AppID的前8位字符
 
 #
 # !! You don't need to change any of the configuration flags below !!
