@@ -9,7 +9,13 @@
         Waline.init({
             el: '#vcomments',
             serverURL: 'https://waline-athletik.vercel.app/',
-            dark: true
+            dark: true,
+            emoji: 
+                [
+                    '//unpkg.com/@waline/emojis@1.1.0/weibo',
+                    '//unpkg.com/@waline/emojis@1.1.0/bilibili',
+                ],
+            reaction: true
         })
     </script>
 </body>
