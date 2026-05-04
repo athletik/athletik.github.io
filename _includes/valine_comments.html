@@ -1,26 +1,29 @@
 <h4 align="left">「游客留言」：</h4>    
-<head>
-    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
-    <link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet' />
-</head>
-<body>
-    <div id="vcomments"></div>
-    <script>
-        Waline.init({
-            el: '#vcomments',
-            serverURL: 'https://waline-beige-iota.vercel.app',
-            requiredMeta: ['nick'],
-            imageUploader: false,
-            search: false,
-            locale: 
-            {
-                placeholder: '留下感想吧'
-            },
-            emoji: 
-                [
-                    '//unpkg.com/@waline/emojis@1.1.0/weibo',
-                    '//unpkg.com/@waline/emojis@1.1.0/bilibili',
-                ]
-        })
-    </script>
-</body>
+
+<!-- 1. 引入 v3 版本的 CSS 样式 -->
+<link href='//unpkg.com/@waline/client@v3/dist/waline.css' rel='stylesheet' />
+
+<!-- 2. 评论区的占位容器保持不变 -->
+<div id="vcomments"></div>
+
+<!-- 3. 使用 type="module" 的方式引入 JS 并启动 -->
+<script type="module">
+    // 从 v3 的地址专门导入 init 这个方法
+    import { init } from '//unpkg.com/@waline/client@v3/dist/waline.js';
+
+    // 启动并带上你原来的所有配置
+    init({
+        el: '#vcomments',
+        serverURL: 'https://你的project.vercel.app', // 请务必填回你真实的 Vercel 地址
+        requiredMeta: ['nick'],
+        imageUploader: false,
+        search: false,
+        locale: {
+            placeholder: '留下感想吧'
+        },
+        emoji: [
+            '//unpkg.com/@waline/emojis@1.1.0/weibo',
+            '//unpkg.com/@waline/emojis@1.1.0/bilibili',
+        ]
+    });
+</script>
